@@ -1,0 +1,9 @@
+.display {
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    height: 3rem;
+    width: 75%;
+    background-color: lightGray;
+    color: black;
+    font-size: 2rem;
+}
