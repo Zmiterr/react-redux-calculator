@@ -1,0 +1,15 @@
+.equals-container{
+    display: flex;
+    width: 75%;
+    justify-content: flex-end;
+    margin: 2px auto 8px auto;
+}
+
+.equals {
+    font-weight: bold;
+    background-color: gray;
+    width: 50%;
+    color: black;
+    font-size: 1.5em;
+
+}

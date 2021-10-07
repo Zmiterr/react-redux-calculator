@@ -1,11 +1,15 @@
 import './Display.css';
+import {connect} from 'react-redux';
 
-
-
-function Display() {
+function Display(props) {
     return (
-        <input className='display' type='text' placeholder={0} value={''}/>
+        <input className='display' type='text' placeholder={0} value={props.displayText}/>
     )
 }
+const mapStateToProps = (state) => {
+    return {
+        displayText: state.displayText
+    };
+}
 
-export default Display;
+export default connect(mapStateToProps)(Display)

@@ -1,0 +1,35 @@
+.num-buttons-container{
+    display: grid;
+    width: 75%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1px;
+}
+
+.numButtons {
+    background-color: #8B8484;
+    font-size: 1.5em;
+}
+
+.op-buttons-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 75%;
+    grid-gap: 1px;
+    margin: 5px auto;
+}
+
+.opButtons {
+    border-radius: 1px;
+    background-color: #FA9F0B;
+    color: white;
+    font-size: 1.5em;
+}
+
+#zero {
+    grid-column: 1 / span 3;
+    width: 100%;
+}
+
+

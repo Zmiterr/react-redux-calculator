@@ -1,15 +1,13 @@
 import './Buttons.css';
-// import CEearButton from './ClearButton';
-// import NumButtons from './NumButtons';
-// import OperButtons from './EqualsButton';
+import OperButtons from './OperButtons/OperButtons';
+
+import NumButtons from "./NumButton/NumButton";
 
 export default function Buttons(){
     return(
         <>
-            <button className="numButtons">1</button>
-            {/*<CEearButton />*/}
-            {/*<NumButtons />*/}
-            {/*<OperButtons />*/}
+            <NumButtons />
+            <OperButtons />
         </>
     )
 }
